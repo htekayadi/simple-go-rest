@@ -1,4 +1,4 @@
 Go Application
 ===========
 
-### JSON - Simple REST API)
+### JSON - Simple REST API
