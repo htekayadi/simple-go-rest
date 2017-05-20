@@ -1,4 +1,4 @@
-package main
+package v2
 
 import (
 	"encoding/json"
@@ -29,7 +29,7 @@ func serveRest(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", serveRest)
-	http.ListenAndServe("localhost:1337", nil)
+	http.ListenAndServe("localhost:8080", nil)
 }
 
 func getJsonResponse() ([]byte, error) {

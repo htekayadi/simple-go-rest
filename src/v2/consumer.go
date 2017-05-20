@@ -1,4 +1,4 @@
-package main
+package v2
 
 import (
 	"encoding/json"
@@ -20,7 +20,7 @@ type Fruits map[string]int
 type Vegetables map[string]int
 
 func main() {
-	url := "http://localhost:1337"
+	url := "http://localhost:8080"
 	res, err := http.Get(url)
 	if err != nil {
 		panic(err)
